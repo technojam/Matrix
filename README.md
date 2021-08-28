@@ -1,4 +1,4 @@
-# Github Issues Dashboard
+# Github Issues Searcher
 
 In this, We have used Github API to check number of issues of the repository which are active or closed.
 
