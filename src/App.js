@@ -31,7 +31,7 @@ function App() {
 
   return (
     <div className="wrapper">
-      <div className="title">Search Github Issues</div>
+      <div className="title">Github Issues Searcher</div>
       <form action="#">
         <div className="field">
           <input
@@ -59,8 +59,9 @@ function App() {
       </form>
       <div className="containerSecond">
         <div className="centerSecond">
-          <h2>Active Issues are:</h2>
-          {activeIssues}
+          <h2>
+            Active Issues are: <span>{activeIssues}</span>
+          </h2>
         </div>
       </div>
     </div>
